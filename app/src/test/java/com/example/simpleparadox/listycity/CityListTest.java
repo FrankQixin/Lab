@@ -73,21 +73,7 @@ public class CityListTest {
         });
     }
 
-    @Test
-    void testCountCities(){
-        CityList cityList = mockCityList();
-        City city = new City("Yellowknife", "Northwest Territories");
-        cityList.add(city);
-        assertEquals(1,cityList.countCities());
-        City city2 = new City("Charlottetown", "Prince Edward Island");
-        cityList.add(city2);
-        assertEquals(2,cityList.countCities());
-        City city3 = new City("GuangZhou","GuangDong");
-        cityList.add(city3);
-        assertEquals(3,cityList.countCities());
-
-    }
-
+ 
 
 
 
